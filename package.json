@@ -1,14 +1,14 @@
 {
-  "name": "@pencilz/adyen-salesforce-pwa",
-  "version": "1.0.0",
+  "name": "@salchipapasdemil/adyen-salesforce-pwa",
+  "version": "2.0.0",
   "private": false,
   "license": "See license in LICENSE",
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "engines": {
-    "node": "^16.0.0 || ^18.0.0",
-    "npm": "^7.0.0 || ^8.0.0 || ^9.0.0"
+    "node": "18.20.4",
+    "npm": "10.7.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.2.0",
@@ -18,5 +18,8 @@
   "scripts": {
     "check-branch-name": "chmod 755 ./branching.sh && sh ./branching.sh",
     "prepare": "husky install"
+  },
+  "dependencies": {
+    "@salchipapasdemil/adyen-salesforce-pwa": "^1.0.2"
   }
 }

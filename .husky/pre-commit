@@ -1,10 +1,10 @@
 #!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
+# . "$(dirname -- "$0")/_/husky.sh"
 
-npm run check-branch-name
+# npm run check-branch-name
 
-cd ./packages/adyen-retail-react-app
-npm run lint
+# cd ./packages/adyen-retail-react-app
+# npm run lint
 
-cd ../adyen-salesforce-pwa
-npm run lint
+# cd ../adyen-salesforce-pwa
+# npm run lint

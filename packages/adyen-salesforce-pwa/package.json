@@ -1,5 +1,5 @@
 {
-  "name": "@adyen/adyen-salesforce-pwa",
+  "name": "@salchipapasdemil/adyen-salesforce-pwa",
   "keywords": [
     "adyen",
     "salesforce",
@@ -20,7 +20,7 @@
   "homepage": "https://docs.adyen.com/plugins/salesforce-commerce-cloud/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Adyen/adyen-salesforce-headless-commerce-pwa.git",
+    "url": "https://github.com/wearepencilz/adyen-salesforce-headless-commerce-pwa.git",
     "directory": "packages/adyen-salesforce-pwa"
   },
   "bugs": {

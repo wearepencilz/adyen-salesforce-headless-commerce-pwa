@@ -17,7 +17,7 @@ jobs:
           node-version: 18.15
           registry-url: https://registry.npmjs.org/
       # Publish the npm package
-      - run: npm unpublish @adyen/adyen-salesforce-pwa --force --loglevel verbose
+      - run: npm unpublish @salchipapasdemil/adyen-salesforce-pwa --force --loglevel verbose
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
           CI: true
