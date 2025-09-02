@@ -1,7 +1,11 @@
 {
-  "name": "adyen-salesforce-pwa",
-  "version": "0.0.0",
+  "name": "@pencilz/adyen-salesforce-pwa",
+  "version": "1.0.0",
+  "private": false,
   "license": "See license in LICENSE",
+  "publishConfig": {
+    "access": "restricted"
+  },
   "engines": {
     "node": "^16.0.0 || ^18.0.0",
     "npm": "^7.0.0 || ^8.0.0 || ^9.0.0"
